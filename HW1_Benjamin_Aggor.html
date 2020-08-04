@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body{
+        
+            padding: 50px;
+        }
+        .btn-primary{
+            background-color: darkgreen;
+        }
+        .form-group{
+            padding: 10px;
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        form{
+            background-color: #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">First Name</label>
+          <input type="First Name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name...">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Last Name</label>
+            <input type="Last Name" class="form-control" id="exampleFormControlInput1" placeholder="Your Last Name...">
+          </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Country</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Ghana</option>
+            <option>Australia</option>
+            <option>Nigeria</option>
+            <option>Spain</option>
+            <option>USA</option>
+          </select>
+        </div>
+       
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Subject</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder ="write something..." rows="5"></textarea>
+        </div>
+        <button class="btn-primary" type="submit">Submit</button>
+      </form>
+      
+</body>
+</html>
